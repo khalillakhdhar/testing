@@ -44,4 +44,8 @@ return true;
 }
 else return false;
 }
+public boolean verifDescription(String des)
+{
+return des.contains("positif")|| des.contains("negatif");	
+}
 }
