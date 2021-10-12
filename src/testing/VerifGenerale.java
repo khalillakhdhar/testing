@@ -11,4 +11,21 @@ public boolean verifString(String ch)
 	 * return false;
 	 */
 	}
+public void conversible(String a)
+{
+	try
+	{
+		Double.parseDouble(a);
+	}
+	catch(NumberFormatException ex)
+	{
+		System.out.println(ex);
+	}
 }
+	public boolean positif(int w)
+	{
+		return w>0;
+	}
+}
+
+
